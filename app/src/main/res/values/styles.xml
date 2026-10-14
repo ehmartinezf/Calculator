@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Pantalla">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center_vertical|end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@color/fondo</item>
+        <item name="android:textColor">@color/texto_claro</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="FilaBotones">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Boton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/texto_claro</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BotonNumero" parent="Boton">
+        <item name="android:backgroundTint">@color/boton_numero</item>
+    </style>
+
+    <style name="BotonOperacion" parent="Boton">
+        <item name="android:backgroundTint">@color/boton_operacion</item>
+    </style>
+
+    <style name="BotonMemoria" parent="Boton">
+        <item name="android:backgroundTint">@color/boton_memoria</item>
+    </style>
+
+    <style name="BotonBorrar" parent="Boton">
+        <item name="android:backgroundTint">@color/boton_borrar</item>
+    </style>
+
+    <style name="BotonIgual" parent="Boton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:backgroundTint">@color/boton_igual</item>
+        <item name="android:textColor">@color/texto_oscuro</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="PantallaLand" parent="Pantalla">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TecladoLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="BotonIgualLand" parent="BotonIgual">
+        <item name="android:layout_weight">0.7</item>
+    </style>
+
+</resources>

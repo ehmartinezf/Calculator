@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pantalla"
+        style="@style/Pantalla"
+        android:text="@string/n0" />
+
+    <LinearLayout style="@style/FilaBotones">
+
+        <Button
+            android:id="@+id/botonMC"
+            style="@style/BotonMemoria"
+            android:text="@string/mc" />
+
+        <Button
+            android:id="@+id/botonMR"
+            style="@style/BotonMemoria"
+            android:text="@string/mr" />
+
+        <Button
+            android:id="@+id/botonMMenos"
+            style="@style/BotonMemoria"
+            android:text="@string/m_menos" />
+
+        <Button
+            android:id="@+id/botonMMas"
+            style="@style/BotonMemoria"
+            android:text="@string/m_mas" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FilaBotones">
+
+        <Button
+            android:id="@+id/boton7"
+            style="@style/BotonNumero"
+            android:text="@string/n7" />
+
+        <Button
+            android:id="@+id/boton8"
+            style="@style/BotonNumero"
+            android:text="@string/n8" />
+
+        <Button
+            android:id="@+id/boton9"
+            style="@style/BotonNumero"
+            android:text="@string/n9" />
+
+        <Button
+            android:id="@+id/botonDividir"
+            style="@style/BotonOperacion"
+            android:text="@string/dividir" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FilaBotones">
+
+        <Button
+            android:id="@+id/boton4"
+            style="@style/BotonNumero"
+            android:text="@string/n4" />
+
+        <Button
+            android:id="@+id/boton5"
+            style="@style/BotonNumero"
+            android:text="@string/n5" />
+
+        <Button
+            android:id="@+id/boton6"
+            style="@style/BotonNumero"
+            android:text="@string/n6" />
+
+        <Button
+            android:id="@+id/botonMultiplicar"
+            style="@style/BotonOperacion"
+            android:text="@string/multiplicar" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FilaBotones">
+
+        <Button
+            android:id="@+id/boton1"
+            style="@style/BotonNumero"
+            android:text="@string/n1" />
+
+        <Button
+            android:id="@+id/boton2"
+            style="@style/BotonNumero"
+            android:text="@string/n2" />
+
+        <Button
+            android:id="@+id/boton3"
+            style="@style/BotonNumero"
+            android:text="@string/n3" />
+
+        <Button
+            android:id="@+id/botonRestar"
+            style="@style/BotonOperacion"
+            android:text="@string/restar" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FilaBotones">
+
+        <Button
+            android:id="@+id/boton0"
+            style="@style/BotonNumero"
+            android:text="@string/n0" />
+
+        <Button
+            android:id="@+id/botonPunto"
+            style="@style/BotonNumero"
+            android:text="@string/punto" />
+
+        <Button
+            android:id="@+id/botonBorrar"
+            style="@style/BotonBorrar"
+            android:text="@string/borrar" />
+
+        <Button
+            android:id="@+id/botonSumar"
+            style="@style/BotonOperacion"
+            android:text="@string/sumar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonIgual"
+        style="@style/BotonIgual"
+        android:text="@string/igual" />
+
+</LinearLayout>

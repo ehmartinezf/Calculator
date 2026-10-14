@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo">#202020</color>
+
+    <color name="texto_claro">#FFFFFF</color>
+    <color name="texto_oscuro">#000000</color>
+
+    <color name="boton_numero">#323232</color>
+    <color name="boton_operacion">#616161</color>
+    <color name="boton_memoria">#424242</color>
+    <color name="boton_borrar">#3A3A3A</color>
+    <color name="boton_igual">#4CC2FF</color>
+</resources>
